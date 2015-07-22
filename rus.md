@@ -15,9 +15,9 @@
 >
 > Я хотел уточнить у тебя один вопрос касательно CSS: Я был убежден, что текст отобразится тремя разными цветами, но это не так (они все синие) и я не могу найти никакого объяснения этому в интернете:
 >
->   .column { color: red; }
->   .column.column { color: green; }
->   .column.column.column { color: blue; }
+>     .column { color: red; }
+>     .column.column { color: green; }
+>     .column.column.column { color: blue; }
 >
 >
 > Демо: [jsfiddle.net/otk9661u][1].
@@ -41,9 +41,9 @@
 > Если вы хотите стилизовать элемент, основываясь на «подсчете» количества классов в вашей разметке, вы можете написать вот такой код:
 >
 >
->   [class="column"] { color: red; }
->   [class="column column"] { color: green; }
->   [class="column column column«] { color: blue; }
+>     [class="column"] { color: red; }
+>     [class="column column"] { color: green; }
+>     [class="column column column"] { color: blue; }
 >
 >
 > Демо: [jsfiddle.net/ssj4recq][2].
